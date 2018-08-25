@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3369e7</color>
+    <color name="colorPrimaryDark">#3369e7</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pink">#FF4081</color>
+    <color name="lightBlue">#007FFF</color>
+    <color name="skyBlue">#87CEEB</color>
+    <color name="vanilla">#F3E5AB</color>
+    <color name="purple">#AB47BC</color>
+    <color name="flipkartBlue1"> #3369e7</color>
+
+    <color name="flip_blue">#007bb6</color>
+    <color name="flip_yellow">#F8E831</color>
+    <color name="flip_orange">#F7A200</color>
+    <color name="whitedull">#E8E3E3</color>
+    <color name="background_pink">#fc636b</color>
+    <color name="purple_light">#BA68C8</color>
+
+
+    <color name="orangew">#FF6D00</color>
+    <color name="white_dull"> #F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#000</color>
+    <color name="gradStart">#19AA8B</color>
+    <color name="gradStop">#23A7D8</color>
+
+
+    <color name="gold">#FFD700</color>
+    <color name="gold1">#FFA500</color>
+    <color name="gold2">#FFD700</color>
+    <color name="login_LightBlue">#05c3f9</color>
+    <color name="login_darkBlue">#0691b8</color>
+
+
+    <color name="dark_blue">#23283a</color>
+    <color name="dark_pink">#fe104d</color>
+
+    <color name="gray">#8989</color>
+    <color name="pinkRuby">#E0115F</color>
+    <color name="greenPastel">#03C03C</color>
+
+
+
+
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+</resources>

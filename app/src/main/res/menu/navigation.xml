@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/courses"
+        android:icon="@drawable/home"
+        android:title="Courses" />
+
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/bookmrkfull"
+        android:title="Bookmarks" />
+
+    <item
+        android:id="@+id/my_courses"
+        android:icon="@drawable/play"
+        android:title="My Courses" />
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/accountfilled"
+        android:title="Account" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notifilled"
+        android:title="Notifications" />
+</menu>

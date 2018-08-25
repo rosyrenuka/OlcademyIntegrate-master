@@ -1,0 +1,197 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.example.hp.chattingapp.Fragment.CourseFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/flip_blue"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olcademy"
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="7dp"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="4dp"
+                android:layout_marginTop="3dp"
+                android:layout_height="35dp"
+                android:id="@+id/search"
+                android:src="@drawable/search"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="3dp"
+                android:padding="8dp"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="#777777 "
+                android:text="Search for Courses and More"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_marginTop="105dp"
+
+       android:descendantFocusability="blocksDescendants"
+       android:layout_height="wrap_content">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="4dp"
+           android:background="#F5F5F5"
+           android:nestedScrollingEnabled="false"
+           android:descendantFocusability="blocksDescendants"
+           android:layout_height="match_parent">
+
+
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:descendantFocusability="blocksDescendants"
+               android:layout_marginLeft="5dp"
+               android:id="@+id/card1"
+               android:layout_marginBottom="5dp"
+               app:cardCornerRadius="5dp"
+               android:background="#E0115F"
+               android:layout_marginRight="5dp"
+               app:cardElevation="5dp"
+               app:cardPreventCornerOverlap="false"
+               app:cardUseCompatPadding="true"
+               >
+
+               <ViewFlipper
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginLeft="2dp"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginBottom="2dp"
+                   android:layout_marginRight="2dp"
+                   android:id="@+id/viewflipper1">
+
+               </ViewFlipper>
+
+           </android.support.v7.widget.CardView>
+
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Our Top Courses"
+               android:textSize="23dp"
+               android:layout_marginTop="210dp"
+               android:textStyle="bold"
+               android:layout_marginLeft="10dp"
+               android:textColor="@color/transparent"
+               android:layout_height="wrap_content" />
+
+
+           <android.support.v7.widget.RecyclerView
+               android:layout_width="wrap_content"
+               android:id="@+id/r1"
+               android:nestedScrollingEnabled="false"
+               android:layout_marginTop="245dp"
+               android:background="#F5F5F5"
+               android:layout_height="wrap_content">
+
+           </android.support.v7.widget.RecyclerView>
+
+
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="515dp"
+               android:layout_marginLeft="5dp"
+               android:id="@+id/card1_add"
+               android:layout_marginBottom="5dp"
+               app:cardCornerRadius="5dp"
+               android:background="#E0115F"
+               android:layout_marginRight="5dp"
+               app:cardElevation="5dp"
+               app:cardPreventCornerOverlap="false"
+               app:cardUseCompatPadding="true"
+               >
+
+               <ViewFlipper
+                   android:layout_width="match_parent"
+                   android:layout_height="160dp"
+                   android:layout_marginLeft="2dp"
+                   android:layout_marginTop="2dp"
+                   android:layout_marginBottom="2dp"
+                   android:layout_marginRight="2dp"
+                   android:id="@+id/viewflipper2">
+
+               </ViewFlipper>
+
+           </android.support.v7.widget.CardView>
+
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Recommended Courses"
+               android:textSize="23dp"
+               android:layout_marginTop="740dp"
+               android:textStyle="bold"
+               android:layout_marginLeft="10dp"
+               android:textColor="@color/transparent"
+               android:layout_height="wrap_content" />
+
+
+           <android.support.v7.widget.RecyclerView
+               android:layout_width="wrap_content"
+               android:id="@+id/r2"
+               android:nestedScrollingEnabled="false"
+               android:layout_marginTop="780dp"
+               android:background="#F5F5F5"
+               android:layout_height="wrap_content">
+
+           </android.support.v7.widget.RecyclerView>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:background="#F5F5F5"
+               android:layout_marginTop="1050dp"
+               android:layout_height="15dp"></LinearLayout>
+
+       </RelativeLayout>
+
+
+   </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

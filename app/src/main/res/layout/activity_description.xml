@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#E8E3E3"
+            android:layout_height="wrap_content">
+
+            <!--toolbaar-->
+         <!--layout 1-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:alpha="0.7"
+                    android:background="@drawable/sss"
+                    android:orientation="vertical"
+                    android:layout_height="400dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/white"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        android:alpha="9.9"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:lineSpacingExtra="1.2dp"
+                        android:layout_marginRight="10dp"
+                        android:text="The Advanced Web Developer Bootcamp"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:alpha="9.9"
+                        android:lineSpacingExtra="1.2dp"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Learn React 16, FRedux , D3,ES2015, Testing, CSS Flexbox,Animations,SVG,AJAX, and more!"
+                        android:layout_height="wrap_content" />
+
+
+                    <!--button linear layout-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_height="32dp">
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/buttonstyle2"
+                            android:layout_marginRight="5dp"
+                            android:textColor="@color/white"
+                            android:id="@+id/b1"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="false"
+                            android:text="37,910 Enrolled"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/buttonstyle2"
+                            android:textColor="@color/white"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:textAllCaps="false"
+                            android:layout_height="wrap_content"
+                            android:text="34 hours"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/buttonstyle2"
+                            android:textColor="#FFF"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textAllCaps="false"
+                            android:layout_height="wrap_content"
+                            android:text="Instructor"/>
+
+                    </LinearLayout>
+                    <!--button linear layout ends-->
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:layout_margin="15dp"
+                        android:textSize="13dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttonstyle2"
+                        android:text="Created by Colt Steele , 3 more"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF" />
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="310dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="25dp"
+                    app:cardElevation="4dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+
+                    <ImageView
+                        android:layout_width="247dp"
+                        android:layout_height="140dp"
+                        android:background="#FFFF00"
+                        android:id="@+id/search"
+                        android:src="@drawable/course4"
+                        />
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center_vertical"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/play"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:alpha="6.9"
+                        android:text="Preview This Course"/>
+
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+ <!--layout 1 ends-->
+
+<!--layout 2 begins-->
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Rs.12,700.00"
+         android:layout_marginLeft="15dp"
+         android:textSize="27dp"
+         android:textColor="@color/transparent"
+         android:layout_marginTop="480dp"
+         android:textStyle="bold"
+         />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:text="Buy Now"
+              android:gravity="center_horizontal"
+              android:layout_marginTop="540dp"
+              android:textStyle="bold"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:textSize="21dp"
+              android:padding="5dp"
+              android:textColor="@color/white"
+              android:background="@color/background_pink"
+              />
+
+
+          <android.support.v7.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="610dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              app:cardElevation="5dp"
+              app:cardCornerRadius="4dp"
+              app:cardPreventCornerOverlap="false"
+              app:cardUseCompatPadding="true">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:background="@color/white"
+             android:layout_marginLeft="5dp"
+             android:layout_margin="5dp"
+             android:orientation="vertical"
+             android:layout_marginTop="2dp"
+             android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="40dp"
+                 android:layout_marginTop="5dp"
+                 android:text="This Course Includes"
+                 android:fontFamily="sans-serif"
+                 android:textColor="@color/gradStart"
+                 android:textStyle="bold"
+                 android:textSize="20dp"
+
+                 />
+
+
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/option1"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="34 hours on-demand video"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/icon2"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:textSize="16dp"
+                     android:text="29 Quizzes"
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/icon6"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:textSize="16dp"
+                     android:text="Support Files"
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/icon4"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:textSize="16dp"
+                     android:text="9 Articles"
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/icon5"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:text="1 Assignment"
+                     android:textSize="16dp"
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/icon6"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:text="18 Coding Exercises"
+                     android:textSize="16dp"
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/option1"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:text="Full Lifetime access"
+                     android:textSize="16dp"
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/icon4"
+                     android:layout_height="wrap_content" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:text="Access on mobile,desktop,and TV"
+                     android:layout_marginTop="2dp"
+                     android:textSize="16dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="5dp"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/option1"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:textSize="16dp"
+                     android:text="Certificate of Completion"
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+
+
+          </android.support.v7.widget.CardView>
+
+
+          <android.support.v7.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="960dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              app:cardElevation="5dp"
+              app:cardCornerRadius="4dp"
+              app:cardPreventCornerOverlap="false"
+              app:cardUseCompatPadding="true">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:id="@+id/linear_increase"
+                  android:layout_marginBottom="20dp"
+                  android:layout_height="wrap_content">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="40dp"
+                      android:layout_marginTop="10dp"
+                      android:text="Description"
+                      android:layout_marginLeft="10dp"
+                      android:fontFamily="sans-serif"
+                      android:textColor="@color/purple"
+                      android:textStyle="bold"
+                      android:textSize="20dp"
+
+                      />
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="140dp"
+                      android:lineSpacingExtra="1.2dp"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:id="@+id/big"
+                      android:text=""
+                      android:textSize="16dp"
+                      />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="SHOW MORE"
+                      android:id="@+id/showmore"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginTop="8dp"
+                      android:textSize="13dp"
+                      android:textStyle="bold"
+                      android:textColor="@color/background_pink"
+                      />
+              </LinearLayout>
+
+          </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1330dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="4dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/layout"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Requirements"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/gradStart"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="4dp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/tick"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Access to a computer wiht an good internet connection"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_height="55dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+      </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.widget.RelativeLayout>
